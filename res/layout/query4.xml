@@ -9,7 +9,7 @@
         android:id="@+id/contact_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Large Text"
+        android:text="@string/large_text"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <LinearLayout
@@ -20,14 +20,14 @@
             android:id="@+id/times_contacted_textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Times contacted: "
+            android:text="@string/times_contacted"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <TextView
             android:id="@+id/times_contacted"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Medium Text"
+            android:text="@string/medium_text"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
     </LinearLayout>

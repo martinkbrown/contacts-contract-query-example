@@ -148,7 +148,8 @@ public class ContactsContractExampleActivity extends ListActivity {
                 R.layout.query1,
                 mCursor,
                 mListColumns,
-                mListItems);
+                mListItems,
+                CursorAdapter.NO_SELECTION);
 
         setListAdapter(mCursorAdapter);
     }
@@ -193,7 +194,8 @@ public class ContactsContractExampleActivity extends ListActivity {
                 R.layout.query4,
                 mCursor,
                 mListColumns,
-                mListItems);
+                mListItems,
+                CursorAdapter.NO_SELECTION);
 
         setListAdapter(mCursorAdapter);
     }
@@ -234,7 +236,8 @@ public class ContactsContractExampleActivity extends ListActivity {
                 R.layout.query1,
                 mCursor,
                 mListColumns,
-                mListItems);
+                mListItems,
+                CursorAdapter.NO_SELECTION);
 
         setListAdapter(mCursorAdapter);
     }
